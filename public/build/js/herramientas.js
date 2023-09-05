@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector("#listaTools");let t=document.getElementById("toolsHidden").value.split(",");t&&t.forEach(t=>{const n=document.createElement("LI");n.textContent=t,e.appendChild(n)})}();

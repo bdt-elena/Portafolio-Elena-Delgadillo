@@ -1,0 +1,74 @@
+.header {
+  padding: 1rem;
+  border-bottom: 1px solid #fff2f3;
+  background: linear-gradient(to right, #ff596a, #3e7bfd);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__contenido {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.header__logo h1 {
+  color: #fff;
+}
+.header__logo p {
+  margin: 0.5rem 0 0 0;
+  text-align: center;
+  line-height: 2rem;
+}
+.header__nav {
+  display: flex;
+  gap: 3rem;
+}
+.header__enlaces {
+  color: #fff;
+}
+.header__enlaces:hover {
+  color: #ffbfc6;
+}
+
+.encabezado {
+  display: grid;
+  grid-template-columns: 100%;
+  height: 90vh;
+  width: auto;
+  background-image: url(../img/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+.encabezado__contenido {
+  border: 2px solid #fff2f3;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 5%;
+  width: 30%;
+  height: 40%;
+  margin: auto auto;
+  padding: 3rem;
+  justify-content: center;
+}
+.encabezado__contenido a {
+  background-color: #ff596a;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 20rem;
+}
+.encabezado__contenido a:hover {
+  background-color: #3e7bfd;
+}
+.encabezado__contenido h2 {
+  background: linear-gradient(to right, #ff596a 0%, #3e7bfd 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

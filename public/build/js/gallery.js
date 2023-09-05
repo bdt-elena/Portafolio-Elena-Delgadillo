@@ -1,0 +1,1 @@
+!function(){const e=document.querySelector(".galeria-imagenes");for(let n=1;n<=11;n++){const i=document.createElement("picture");i.innerHTML=`\n            <img loading="lazy" width="200" height="300" src="../build/img/skills/${n}.png" alt="Imagen Galería">\n        `,e.appendChild(i)}}();
